@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="Utf-8">
+        <title>OTP form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="otp.css">
+    </head>
+
+    <body>
+        <main class="container">
+            <h2>
+                Enter the OTP
+            </h2>
+            <form >
+                <div class="input-field">
+                    <input type="text"
+                            inputmode="numeric"
+                            autocomplete="one-time-code"
+                            pattern="\d{6}"
+                            required>
+                    <div class="underline"></div>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
